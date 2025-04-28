@@ -3,16 +3,16 @@ import { Carousel, Image, Container } from "react-bootstrap";
 
 export default function CarouselComponent() {
   return (
-    <Carousel fade>
+    <Carousel fade controls={false} indicators={false}>
       <Carousel.Item>
         <Image
           src="src\assets\images\Img1.jpg"
           alt="img1"
-          className="img-fluid"
+          className="img-fluid rounded-transparent"
           style={{ height: "500px", width: "1500px" }}
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Soluciones en </h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -20,7 +20,7 @@ export default function CarouselComponent() {
         <Image
           src="src\assets\images\Img2.jpg"
           alt="img2"
-          className="img-fluid"
+          className="img-fluid rounded-transparent"
           style={{ height: "500px", width: "1500px" }}
         />
         <Carousel.Caption>
@@ -30,9 +30,9 @@ export default function CarouselComponent() {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          src="src\assets\images\Img3.png"
+          src="src\assets\images\Img6.jpg"
           alt="img3"
-          className="img-fluid"
+          className="img-fluid rounded-transparent"
           style={{ height: "500px", width: "1500px" }}
         />
         <Carousel.Caption>

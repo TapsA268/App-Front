@@ -1,5 +1,12 @@
-body{
-  background-image: url("src/assets/backgrounds/background-red.svg");
+body {
+  background-image: url("src/assets/backgrounds/background-blue.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  height: 100vh;
+}
+
+.rounded-transparent {
+  opacity: 0.7;
+  border-radius: 15px;
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Modal, Form } from "react-bootstrap";
+import { Container, Button, Modal, Form } from "react-bootstrap";
 
 export default function ModalContact() {
   const [show, setShow] = useState(false);
@@ -8,9 +8,11 @@ export default function ModalContact() {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Button variant="outline-light" onClick={handleShow}>
+      <Container className="d-grid gap-2">
+      <Button variant="primary" onClick={handleShow} size="lg">
         Contáctanos
       </Button>
+      </Container>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className="text-center" closeButton>
           <Modal.Title className="fw-bold">Contáctanos</Modal.Title>
@@ -36,10 +38,10 @@ export default function ModalContact() {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="outline-secondary" onClick={handleClose}>
             Cerrar
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="outline-primary" onClick={handleClose}>
             Contactar
           </Button>
         </Modal.Footer>
