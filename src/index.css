@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
   background-image: url("src/assets/backgrounds/background-blue.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Outfit", sans-serif !important;
   margin: 0;
   height: 100vh;
 }

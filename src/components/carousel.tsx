@@ -9,7 +9,7 @@ export default function CarouselComponent() {
           src="src\assets\images\Img1.jpg"
           alt="img1"
           className="img-fluid rounded-transparent"
-          style={{ height: "500px", width: "1500px" }}
+          style={{ height: "700px", width: "1500px" }}
         />
         <Carousel.Caption>
           <h3>Soluciones en </h3>
@@ -21,7 +21,7 @@ export default function CarouselComponent() {
           src="src\assets\images\Img2.jpg"
           alt="img2"
           className="img-fluid rounded-transparent"
-          style={{ height: "500px", width: "1500px" }}
+          style={{ height: "700px", width: "1500px" }}
         />
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -33,7 +33,7 @@ export default function CarouselComponent() {
           src="src\assets\images\Img6.jpg"
           alt="img3"
           className="img-fluid rounded-transparent"
-          style={{ height: "500px", width: "1500px" }}
+          style={{ height: "700px", width: "1500px" }}
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>

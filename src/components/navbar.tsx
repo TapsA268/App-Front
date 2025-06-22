@@ -13,16 +13,15 @@ export default function NavbarComponent() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">
-              Home
+              Inicio
             </Nav.Link>
             <NavDropdown title="Nuestros Servicios" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/web_apps">
                 Aplicaciones Web
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/mobile_apps">
                 Aplicaciones Móviles
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/about">
               Sobre nosotros
